@@ -1,139 +1,115 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="ppt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name=“author” content=“Silvio Cardoso”>
-   
-	<title>Meu Portifolio</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="icon" type="image/x-icon" href="./img/icon.ico">	
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <link rel="stylesheet" href="style.css">
+    <title>Portifolio</title>
 </head>
-	<body>
-		<header class="header">
-		 <a href="#" class="logo">Portfolio</a>
 
-<!-- 		 <i class='bx bx-menu' id="menu-icon"></i> -->
-		   
-			<nav class="navbar">
-				<a href="#home">Home</a>
-				<a href="#about">About</a>
-				<a href="#projetos">Projetos</a>			
-			
-			</nav>
-		</header>
+<body>
+    <div class="particulas"></div>
+    <nav class="navegacao">
 
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Inicio</a>
+            </li>
+            <li>
+                <a href="#sobre" class="menu-link">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos" class="menu-link">Contato</a>
+            </li>
 
-			<section class="home" id="home">
-				<div class="home-content">
-					<h3>Ola, Eu sou o</h3>
-					<h1>Silvio Cardoso</h1>
-					<h3>Sou um <span>Desenvolvedor Front-End e estou em transição de carreira</span></h3>
-				 	<div class="social-media">
-						<a href="https://www.linkedin.com/in/silvio-cardoso-038722255/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-						<a href="https://github.com/123silvao" target="_blank"><i class='bx bxl-github'></i></a>
-						
-					</div>
-					<a href="./img/CURRICULO front end.pdf" target="_blank" class="btn">Meu CV</a>
-				</div>
+        </ul>
+    </nav>
 
-				<div class="home-img">
-					<img src="./img/foto2.png" alt="">
+    <main id="Inicio" class="cabecalho">
+        <img src="./img/silvao.JPG" alt="foto Silvio Cardoso" class="foto-perfil">
+        <h1>Silvio Cardoso </h1>
+        <p class="cabecalho-sub-titulo">Desenvolvedor front End</p>
+    </main>
 
-				</div>
-			</section>
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Olá! Sou um desenvolvedor front end  estou em transição de careira apaixonado por criar experiencias web unicas e memoráveis. Combino código limpo com design moderno para desenvolver site que não só funcionam perfeitamente, mas tambem imprecionam visualmente. 
+            </p>
+        </div>
+    </section>
 
-
-			<section class="about" id="about">
-				<div class="about-img">
-					<img src="img/foto2.png" alt="">
-				</div>
-				<div class="about-content">
-					<h2 class="heading">Sobre <span>Mim</span></h2>
-					<h3>Developer FrontEnd </h3>
-					<p>Profissional em fase de transição de carreira, da área operador de máquina para a área de Desenvolvimento Web. Experiencia em contribuir no desenvolvimento de projetos. Garantindo o alinhamento com as últimas tendencia e ferramentas do setor, tais como aplicação de tecnologias. Vivência na utilização de linguagem de programação como HTML CSS e JavaScript, promovendo o desenvolvimento de projetos, aplicativos, sistemas web e softwares personalizado atuando como programador FrontEnd. Habilidades em compreender as necessidades dos usuários e clientes, aplicando soluções eficientes.</p>
-					
-				</div>
-			</section>
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
 
 
-			<section class="projetos" id="projetos">
-				<h2 class="heading">Meus <span>Projetos</span></h2>
-
-				<div class="projetos-box">
-
-					<div class="projeto-card">
-						<h3>Mario Bros</h3>						
-						<div class="pra">
-							
-							<a href="https://123silvao.github.io/mario2/" target="_blank">
-								<img class="mario" src="./img/mario.png">
-							</a>
-							
-							
-						</div>
-					</div>
+            <div class="projetos-card">
+                <img src="./projetos/connvert-money/assets/logo.gif" alt="Projeto 1" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Connvert-Money</h3>
+                    <p class="paragrafo-projetos">Loja virtual moderna com animações suave e design responsivo para uma
+                        loja
+                        de carros de luxo</p>
+                </div>
+            </div>
 
 
-					<div class="projeto-card">
-						<h3>X-Men</h3>						
-						<div class="pra">
-							
-							<a href="https://123silvao.github.io/x-men/" target="_blank">
-								<img class="x-men" src="./img/x-men.svg">
-							</a>							
-							
-						</div>
-					</div>
+            <div class="projetos-card">
+                <img src="./img/projeto1.jpg" alt="Projeto" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Páginaa de viagens</h3>
+                    <p class="paragrafo-projetos">Uma pagina interativa com roteiros de viagens mas cobicados do mundo
+                    </p>
+                </div>
+            </div>
 
 
-					<div class="projeto-card">
-						<h3>KF</h3>						
-						<div class="pra">
-							
-							<a href="https://123silvao.github.io/kf-pages/" target="_blank">
-								<img class="kf" src="./img/logo_kf.png">
-							</a>							
-							
-						</div>
-					</div>
-					
-					<div class="projeto-card">
-						<h3>DevClub Burguer</h3>						
-						<div class="pra">
-							
-							<a href="https://123silvao.github.io/DevClub-Burger/" target="_blank">
-								<img class="devburguer" src="./img/xsalada.jpeg">
-							</a>							
-							
-						</div>
-					</div>
-				
-					
-				</div>				
+            <div class="projetos-card">
+                <img src="./img/projeto1.jpg" alt="Projeto 1" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Microsoft</h3>
+                    <p class="paragrafo-projetos">Página da microsoft criada para demonstrar conhecimentos</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			</section>
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
 
-			<footer class="footer">
-				<div class="footer-text">
-					<p> &copy; 2025 Silvio Cardoso </p>
-				</div>
-				
-				<div class="footer-iconTop">
-					<a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
-				</div>
-			</footer>
+        <form class="formulario-contato" id="formulario" onsubmit="enviarwhats(event)">
 
-		
+            <div class="grupo-form">
+                <input placeholder="Nome" class="campo-form">
+            </div>  
 
-		<script src="./js/script.js"></script>	
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua Mensagem"></textarea>
+            </div>
+            <button type="submit" class="botao-form">Enviar whatsapp</button>
+        </form>
+    </section>
 
-	</body>
+    <script>
+        const nome = document.getElementById('nome');
+        const mensagem = document.getElementById('mensagem');
+        const telefone = '5511954499896'
+
+        const texto `Olá! Me chamo ${nome}, ${mensagem}`
+        const msgFformatada = encodeURIComponent(texto)
+
+        const url = `https://whatsa.me/${telefone}/t=${msgFformatada}`
+
+        window.open(url, '_blank')
+
+    </script>
+
+</body>
+
 </html>
-
-
-
